@@ -1,0 +1,8 @@
+inherit xfce4
+
+
+SRC_URI="${SRC_URI%.bz2}.gz"
+PATCH_URI="
+	mirror://portage/xfce-extra/${PN}/files/${P}-libxklavier-5.patch
+	mirror://portage/xfce-extra/${PN}/files/${P}-libxfce4ui.patch
+"
