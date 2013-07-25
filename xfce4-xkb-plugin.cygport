@@ -1,0 +1,13 @@
+inherit xfce4
+
+NAME="xfce4-xkb-plugin"
+VERSION=0.5.6
+RELEASE=1
+CATEGORY="Xfce"
+SUMMARY="Xfce XKB panel plugin"
+DESCRIPTION="This plugin allows you to setup and use multiple (currently up
+to 4 due to X11 protocol limitation) keyboard layouts. You can choose the
+keyboard model, what key combination to use to switch between the layouts,
+the actual keyboard layouts, the way in which the current layout is being
+displayed (country flag image or text) and the layout policy, which is whether
+to store the layout globally (for all windows), per application or per window."
